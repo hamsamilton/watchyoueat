@@ -1,0 +1,89 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{WatchYouEat: Composite Wearable Sensor System for Eating Detection\\}
+
+\author{\IEEEauthorblockN{Samuel Hamilton}
+\IEEEauthorblockA{\textit{Department of Preventative Medicine} \\
+\textit{Northwestern University}\\
+Chicago, USA \\
+samuelhamilton2017@u.northwestern.edu}
+\and
+\IEEEauthorblockN{Shawn Choi}
+\IEEEauthorblockA{\textit{Department of Computer Science} \\
+\textit{Northwestern University}\\
+Evanston, IL\\
+email address or ORCID}
+\and
+\IEEEauthorblockN{Jason Lee}
+\IEEEauthorblockA{\textit{Department of Computer Science} \\
+\textit{Northwestern University}\\
+Evanston, IL \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{May Li}
+\IEEEauthorblockA{\textit{Department of Computer Science} \\
+\textit{Northwestern University}\\
+Evanston, IL \\
+email address or ORCID}
+
+}
+
+\maketitle
+
+\begin{abstract}
+In the effort to combat obesity, an eating detection system (EDS) that is accurate, unobtrusive, and can quantify attributes of eating events, such as calories consumed, is highly sought. While diverse EDSs leveraging utilizing different approaches have been developed, many are inconvenient for wear, or inaccurate in everyday use. To solve this issue, we conducted two experiments, a free-living and a controlled lab experiment, investigating how a composite approach composed of a smartwatch and NeckSense sensor suite might improve on past methods. Specifically, we investigated how this integrated approach could distinguish between confounding behaviors, improve recognition score, and estimate calories consumed. We found that our composite approach was an improvement on the accuracy of past approaches, and demonstrated its capability to estimate calories consumed. We hope we might be able to capture other characteristics of eating in the future. Overall, our results represent a modest but meaningful contribution to the field of eating detection.
+\end{abstract}
+
+\section{Introduction and Related Work}
+Obesity is a global epidemic of enormous consequence, affecting over 500 million people worldwide and predisposing them for cancer, heart disease and diabetes. In addition, the global outlook continues to worsen, with the global age-standardized bmi growing 2.1 kg m-2 from 1985 to 2017\cite{NCD_Risk_Factor_Collaboration_NCD-RisC2019-ii,Swinburn2011-xh}. The growing importance of this problem has motivated researchers and clinicians to innovate new treatments that could help reverse this trend. Historically, researchers have relied on self-reported surveys to gather dietary information for studies. While powerful, the limitations of self-reported surveys, notably bias and high participant burden, have motivated researchers to innovate novel ways to generate dietary data\cite{Zhang2017-xc}. Continuous eating detection systems (CDS), in particular, have garnered attention as they promise to provide more accurate results in addition to a bonanza of behavioral data that could drive novel data-driven, personalized treatments. Further, CDSs could provide the foundation for novel real-time interventions, which are a class of treatments that have proven to be effective~\cite{Coons2012-yz}.
+CDSs are user-worn sensors that utilize user data to detect eating behavior. So far, researchers have found a variety of approaches, including motion-based, camera-based, and sound-based can detect eating with moderate to high accuracy\cite{Bi2018-pd,Dong2012-fh,Gao2016-dv,Rahman2015-sa}. However, many of these devices have not been tested or have been found to be less effective in a free-living setting. In addition, many are either cumbersome, or carry a social stigma that discourages everyday use\cite{Zhang2019-lq}. Lastly, most of these devices aim purely to detect eating events, and stop short of providing the context that characterizes these eating events. This contextual information, such as the quantity of food consumed are components of problematic eating, and thus could be crucial in developing personalized interventions. Thus, it is critical that we develop a wearable that is effective outside of a lab, socially acceptable to wear, detects eating events accurately, and collects information on eating context.
+With this goal in mind, we propose a composite approach, consisting of a NeckSense sensor suite, and a smartwatch. The NeckSense sensor suite is a necklace consisting of a proximity, ambient light, and an inertial motion unit sensor. It integrates these modalities to detect eating. In addition, it has a battery life long enough for a full day of use\cite{Zhang2019-lq}. It has been shown to be highly effective at detecting eating in a free-living context, and is discreet and unobtrusive to wear\cite{Zhang2019-lq}. We combine NeckSense with data collected from a Smartwatch, which are equipped with a wide variety of sensors including gyro. In addition to being powerful, Smartwatches are comfortable and socially acceptable to wear, perhaps even fashionable, with 41.7 million smartwatches shipped worldwide in 2019\cite{noauthor_undated-pz,Choi2016-fv}. Smartwatches are of interest as to CDS researchers as they are a popular off-the-shelf consumer product equipped with powerful sensors including accelerometers, gyroscopes, and GPS sensors\cite{Johnston2015-hu,Su2016-eg}. Using Smartwatches, researchers have been able to develop systems that detect eating with moderate accuracy but not exceptional accuracy\cite{Zhang2017-xc}. This limitation may be attributable to difficult to surmount obstacles such as eating gestures from the dominant hand and horizontal movements being interpreted as vertical when a participant is lying down\cite{Zhang2017-xc}. As such, smartwatches may be optimally used in conjunction with other sensors. Of particular importance, Smartwatches have proven to be useful for detecting complex behaviors such as calories consumed when combined with other modalities\cite{Shoaib2015-br,Dong2012-fh}. Thus, we intuit that together the NeckSense and smartwatch will be able to detect eating with high precision and recall, discreetly and unobtrusively. Further, we expect the smartwatch may provide the context that surrounds eating events. This integrated dataset will both elucidate undiscovered behaviors that characterize problematic eating behaviors, and empower novel, data-driven, personalized interventions.
+ 
+
+\section{Materials and Methods}
+
+\subsection{Experimental Design}
+
+To test our sensor assay, we conducted two experiments, a free-living experiment and a controlled in-lab experiment. In the free-living experiment, participants wore our sensor array for several days while going about their everyday life. The purpose of this experiment was to evaluate the effectiveness of our sensors at detecting eating and the context that surrounds it in an uncontrolled context. The second experiment was a controlled in-lab study. In this study, 3 male and 1 female students in their twenties performed a series of usually confounding activities using each individual sensor, then together. They also ate meals of predetermined caloric value to evaluate if it could be estimated using our assay.
+
+\subsection{NeckSense Sensor Suite}
+Description of NeckSense and figures of worn sensor, sample data
+\subsection{SmartWatch}
+Description of SmartWatch and sensors used for analysis, figure of sample data.
+\subsection{RGB Camera}
+Description of Camera and figures of both camera footage and worn camera.
+
+\section{Eating Detection Pipeline}
+
+\subsection{Preprocessing}
+
+\subsection{Labeling}
+
+\subsection{Segmentation}
+
+\subsection{Classification}
+
+\section{Results}
+
+\section{Discussion}
+
+\section*{Acknowledgment}
+We are thankful for the guidance of our group advisor Dr. Sougata Sen, as well as Dr. Nabil Alshurafa and his team for providing equipment and the data for the free-living portion of this study.
+
+\section*{References}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
