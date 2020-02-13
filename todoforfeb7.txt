@@ -1,0 +1,26 @@
+Detailed description of equipment
+
+Experimental Design
+	Data collection
+	In-the-wild
+	Procedure
+	Participants
+
+
+Data processing
+	Annotation (Data were annotated in this software)
+
+Data analysis: 
+	NeckSense
+		Feature selection
+		Classification
+
+
+
+	Wristband
+	IR camera?
+	Survey?
+	Integration
+
+
+
