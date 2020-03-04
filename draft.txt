@@ -1,0 +1,21 @@
+
+
+
+
+Circadian biology has been central to my research career At the de Cabo Lab at the National Institute on Aging, I quantified the circadian rhythmicity of our mice to accessing the efficacy of our anti-aging interventions. As the computational expert on our team, I developed software and analyzed data from our Comprehensive Lab Animal Monitoring System to measure how interventions such as exercise and a ketogenic diet entrained the circadian rhythm in mice. Through this and through my work as the lead data manager and analyst for a 2,600 mouse longitudinal study of aging, I developed critical statistical competencies for analyzing the multi-dimensional, longitudinal data central to circadian biology research. Further, I assisted in a study aimed at disentangling the historically confounded relationship between caloric restriction and time restricted feeding. It has recently come to light that many of the known health benefits of caloric restriction may be in part attributable to circadian entrainment resulting from self-imposed fasting. As a collaborative team member, I worked weekends to maintain the varied fasting schedules of the mice on the project. Through my efforts I learned much about the underlying science, which represents a true paradigm shift in the century old field of caloric restriction.
+
+I have had the opportunity to follow this exciting research thread in my work at the Braun Lab at Northwestern University. Collaborating with Dr. Kathy Reed in the department of sleep medicine, Dr. Rosemary Braun and I are working together to investigate if entraining the circadian rhythm through fasting and melatonin can ameliorate critical metabolic disease risk-factors such as glucose sensitivity. To this  Under her tutelage, we are exploring if approximate entropy, a statistical measures of regularity novel to the field, can help us quantify the  
+
+
+
+
+
+
+
+
+
+Through my work at both the de Cabo Lab at the National Institute of Aging and at the Braun Lab at Northwestern University, circadian rhythms have been crucial to my research. A critical question in the de Cabo Lab was whether the diminishment of circadian rhythms that accompanies aging could be ameliorated by dietary interventions. To this end, I developed software for and analyzed data from our Comprehensive Lab Animal Monitoring System (CLAMS), which continuously records phenotypes such as activity and oxygen consumption for several days. From this, I quantified how interventions such as exercise or a ketogenic diet affected the circadian rhythms in aging animals. In addition, I assisted in projects untangling the relationship between caloric restriction and circadian entrainment caused by time-restricted feeding. Under the tutelage of Dr. Rosemary Braun, my computational and statistical training leaves me well-suited to collaborate with Dr. Rosemary Braun to develop innovate statistical techniques to extract insights from 
+
+As one of the few students peMy computational and statistical training leaves me uniquely well-suited
+
+It has recently come to light that the life-extending properties of caloric restriction may have been confounded with those of caloric entrainment caused by. My research experience makes one thing clear,v 

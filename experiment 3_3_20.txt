@@ -1,0 +1,102 @@
+Experimental Procedure 3/3/20
+
+Sync 1
+Nothing 15
+Sync 2
+Rest 10
+
+Sync 1 
+Nothing 15
+Sync 2 
+Rest 10
+
+Sync 1
+Nothing 15
+Sync 2
+Rest 10
+
+Sync 1
+Burrito bowl 15
+Sync 2
+Rest 10
+
+Sync 1
+Burrito bowl 15
+Sync 2
+Rest 10
+
+Sync 1
+Burrito bowl 15
+Sync 2
+Rest 10
+
+Sync 1
+Chips 15
+Sync 2
+Rest 10
+
+Sync 1
+Chips 15
+Sync 2
+Rest 10
+
+Sync 1
+Chips 15
+Sync 2
+Rest 10
+
+Sync 1
+Guac 15
+Sync 2
+Rest 10
+
+Sync 1
+Guac 15
+Sync 2
+Rest 10
+
+Sync 1
+Guac 15
+Sync 2
+Rest 10
+
+Sync 1
+Talk 15
+Sync 2
+Rest 10
+
+Sync 1
+Talk 15
+Sync 2
+Rest 10
+
+Sync 1
+Talk 15
+Sync 2
+Rest 10
+
+Sync 1
+Walk 15
+Sync 2
+Rest 10
+
+Sync 1
+Walk 15
+Sync 2
+Rest 10
+
+Sync 1
+Walk 15
+Sync 2
+Rest 10
+
+Sync 1
+Gum 15
+Sync 2
+Rest 10
+
+--Experimental Notes
+
+1st exp  start 2:00, fail 2:04: No video recording
+2nd exp  start 2:05, end 2:20: video recording, but no sd card
+2nd exp  start 2:35, end 2:50: video recording, but no sd card
