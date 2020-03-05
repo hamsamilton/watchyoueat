@@ -25,18 +25,18 @@ print(settings['TIMEZONE'])
 
 SUBJ = 'P417'
 DEVICE = 'Necklace'
-DATE = '2019-12-08'
-HOUR = '13'
-SETTING_PATH = os.path.join(os.getcwd(), SUBJ, 'sync.yaml')
+DATE = '2020-3-3'
+HOUR = '14'
+SETTING_PATH = "/Users/samuelhamilton/watchyoueat/scripts/sync.yaml" #define explicitly
 
 with open(SETTING_PATH) as f:
     SETTINGS = yaml.load(f)
 print(SETTINGS)
-videoLenInMinute = 60
+videoLenInMinute = 16.5
 
-DATA_FOLDER = os.path.join(os.getcwd(),SUBJ,'In Wild',DEVICE,'Clean','Resampled',DATE,HOUR) 
+#DATA_FOLDER = os.path.join(os.getcwd(),SUBJ,'In Wild',DEVICE,'Clean','Resampled',DATE,HOUR) 
 file = 'necklace_data.csv'
-dataPath = os.path.join(DATA_FOLDER, file)
+dataPath = "/Users/samuelhamilton/watchyoueat/data/Necklace/Sam 3_3_20/necklace_data.csv" # DEFINE EXPLICITLY
 dataDf = pd.read_csv(dataPath)
 
 dataDf['Unixtime'] = dataDf['Time']

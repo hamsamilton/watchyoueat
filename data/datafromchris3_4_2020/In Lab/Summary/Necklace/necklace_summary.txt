@@ -1,0 +1,7 @@
+Necklace:
+On 02/8/2020, there are 0.4164469448351305 hours of necklace data.
+On 03/3/2020, there are 2.3001426785435224 hours of necklace data.
+
+Necklace Data Reliability:
+Reliability for has-data units(seconds or minutes or hours): 0.9988904009211766
+Reliability for all the units(seconds or minutes or hours): 0.02621552865675086
